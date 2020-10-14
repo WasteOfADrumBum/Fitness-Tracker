@@ -22,7 +22,7 @@ mongoose.connect(
   (err) => console.log(err)
 );
 
-const collections = ["workouts"];
+const collections = ["plans"];
 const db = mongojs(MONGODB_URI, collections);
 
 db.on("error", (error) => {
