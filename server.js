@@ -11,9 +11,18 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
-const collections = ["workouts"];
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://localhost/workout",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+  },
+  (err) => console.log(err)
+);
 
+const collections = ["workouts"];
 const db = mongojs(MONGODB_URI, collections);
 
 db.on("error", (error) => {
