@@ -39,6 +39,7 @@ module.exports = (app) => {
   // Get Woorkout Range for /stats.html
   app.get("/api/workouts/range", (req, res) => {
     Workout.find()
+      // Limit to 7 for the 7 days of the week
       .limit(7)
       .then((data) => {
         res.json(data);
