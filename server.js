@@ -17,8 +17,9 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Database Connection
+const URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
 mongoose.connect(
-  "mongodb://localhost/workout",
+  URI,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
