@@ -1,57 +1,83 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# **Fitness Tracker**
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+![GitHub license](https://img.shields.io/badge/Made%20by-%40wasteofadrumbum-green)
 
-## User Story
+## Description
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+An application with a MongoDB database deployed on Heroku that allows a user to add thier fitness exercises and then continue to track their progress throughout the week.
 
-## Business Context
+# Technologies Used
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+![GitHub top language](https://img.shields.io/github/languages/top/wasteofadrumbum/Fitness-Tracker?color=green&logo=github&logoColor=green)
+![GitHub language count](https://img.shields.io/github/languages/count/wasteofadrumbum/Fitness-Tracker?color=green&logo=github&logoColor=green)
 
-## Acceptance Criteria
+## Table of contents
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+- [Installation](#installation)
+- [Instructions](#instructions)
+- [Features](#features)
+- [Example Gif](#example-gif)
+- [Repository Link](#Repository)
+- [Test](#Test)
+- [Licence](#Licence)
+- [GitHub Info](#GitHub)
 
-The user should be able to:
+## Installation
 
-  * Add exercises to a previous workout plan.
+```
+npm install
+```
 
-  * Add new exercises to a new workout plan.
+## Instructions
 
-  * View the combined weight of multiple exercises on the `stats` page.
+Application deployed on [Heroku](jms-fitness-tracker.herokuapp.com/).
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+## Features
 
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
+As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
+## Example Gif
 
-## Commit Early and Often
+<img src="public/assets/images/fitness-tracker.gif" width="500" />
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
+## Repository
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+![GitHub repo size](https://img.shields.io/github/repo-size/wasteofadrumbum/Fitness-Tracker?logo=github)
 
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/wasteofadrumbum/Fitness-Tracker)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/wasteofadrumbum/Fitness-Tracker)
 
-Follow these guidelines for committing:
+![GitHubopen pull request](https://img.shields.io/github/issues-pr/wasteofadrumbum/Fitness-Tracker)
+![GitHub closed pull request](https://img.shields.io/github/issues-pr-closed/wasteofadrumbum/Fitness-Tracker)
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+![GitHub Stars](https://img.shields.io/github/stars/wasteofadrumbum/Fitness-Tracker?style=social)
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+- [Project Repo](https://github.com/wasteofadrumbum/Fitness-Tracker)
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+## Contributors
 
-* Test your application before you commit to ensure functionality at every step in the development process.
+none
 
-We want you to have well over 200 commits by graduation, so commit early and often!
+![GitHub contributors](https://img.shields.io/github/contributors/wasteofadrumbum/Fitness-Tracker)
+![GitHub Forks](https://img.shields.io/github/forks/wasteofadrumbum/Fitness-Tracker?label=Fork)
+![GitHub Watchers](https://img.shields.io/github/watchers/wasteofadrumbum/Fitness-Tracker?label=Watch)
 
-## Submission on BCS
+## Test
 
-You are required to submit the following:
+![GitHub test](https://img.shields.io/badge/test-100%25-success)
 
-* The URL to the deployed application
+![GitHub open issues](https://img.shields.io/github/issues/wasteofadrumbum/Fitness-Tracker)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/wasteofadrumbum/Fitness-Tracker)
 
-* The URL to the GitHub repository
+## Licence
+
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## GitHub
+
+<img src="https://avatars0.githubusercontent.com/u/66432859?v=4" width="250" />
+
+- Joshua M. Small
+- [GitHub Profile](https://github.com/wasteofadrumbum)
+- <JMSmall89@gmail.com>
+- ![GitHub Followers](https://img.shields.io/github/followers/wasteofadrumbum?label=Follow)
